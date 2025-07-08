@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la > temp_ls && mv temp_ls lscwdcontent
+ls -la > lscwdcontent
