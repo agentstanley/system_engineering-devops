@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# Highlander
 
-trap "echo I am invincible!!!" SIGTERM
+# Trap SIGTERM and respond
+trap 'echo "I am invincible!!!"' SIGTERM
 
-while true
-do
-  echo "To infinity and beyond"
-  sleep 2
+# Infinite loop with message
+while true; do
+    echo "To infinity and beyond"
+    sleep 2
 done
