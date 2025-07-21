@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
-# Script that traps SIGTERM and prints "I am invincible!!!"
 
+# Trap SIGTERM and print a message instead of exiting
 trap 'echo "I am invincible!!!"' SIGTERM
 
-while true
-do
-    sleep 1
+# Infinite loop
+while true; do
+    echo "To infinity and beyond"
+    sleep 2
 done
