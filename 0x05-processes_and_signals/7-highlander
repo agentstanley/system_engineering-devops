@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 # Highlander
 
+# Disable buffering (if needed for the checker)
+export STDOUT=$(which stdbuf)
+
+# Trap SIGTERM
 trap 'echo "I am invincible!!!"' SIGTERM
 
 while true
