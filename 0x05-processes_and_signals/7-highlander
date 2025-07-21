@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# A script that traps SIGTERM and responds with a message
+# Script that traps SIGTERM and prints "I am invincible!!!"
 
 trap 'echo "I am invincible!!!"' SIGTERM
 
